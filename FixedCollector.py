@@ -42,7 +42,6 @@ class FCconfig:
     def SetWifi(self,ssid, password):
         self.ssid = ssid
         self.password = password
-        #wifiCredential = "ssid=SHAW-SA-2.4G&password=2511510A8392SA&repeaterMode=dhcp&ipaddr=192.168.0.3&netmask=255.255.255.0&gateway=192.168.0.1&dns1=114.114.114.114&dns2=8.8.8.8"
 
         #FX3.0
         wifiCredential ="ssid={}&bssid=&encryption=psk-mixed&cipher=auto&key={}&keyi=1&key1=&key2=&key3=&key4=&eap_type=tls&priv_key_pwd=&auth=PAP&priv_key2_pwd=&identity=&anonymous_identity=&password=&repeaterMode=dhcp&ipaddr=192.168.0.3&netmask=255.255.255.0&gateway=192.168.0.1&dns1=114.114.114.114&dns2=8.8.8.8&reverted=NO&net_profile=GuestWifi&net_hidden=&net_check=".format(ssid,password)
